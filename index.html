@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Instituto Técnico León Ángel Gómez">
+  <title>Instituto Técnico León Ángel Gómez</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="loader" id="loader"><img src="assets/logo.svg" alt="Logo"><span>Cargando...</span></div>
+
+  <header class="topbar">
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <div class="brand-mini">
+      <img src="assets/logo.svg" alt="Instituto Técnico León Ángel Gómez">
+      <span>LEÓN ÁNGEL GÓMEZ</span>
+    </div>
+    <div class="slide-count" id="slideCount">01 / 07</div>
+  </header>
+
+  <aside class="sidebar" id="sidebar">
+    <div class="logo-wrap">
+      <img src="assets/logo.svg" alt="Logo institucional">
+    </div>
+    <div class="side-title">INSTITUTO TÉCNICO</div>
+    <nav>
+      <button class="nav-item active" data-slide="0"><span>01</span>Inicio</button>
+      <button class="nav-item" data-slide="1"><span>02</span>Nosotros</button>
+      <button class="nav-item" data-slide="2"><span>03</span>¿Por qué elegirnos?</button>
+      <button class="nav-item" data-slide="3"><span>04</span>Carreras</button>
+      <button class="nav-item" data-slide="4"><span>05</span>Matrículas</button>
+      <button class="nav-item" data-slide="5"><span>06</span>Galería</button>
+      <button class="nav-item" data-slide="6"><span>07</span>Contacto</button>
+    </nav>
+    <div class="side-motto">"Excelencia en el ser y amor en el quehacer"</div>
+  </aside>
+
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+  <main id="presentation">
+
+    <section class="slide hero active" data-name="Inicio">
+      <div class="hero-bg-shape"></div>
+      <div class="slide-inner hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow">INSTITUTO TÉCNICO</div>
+          <h1>León Ángel <strong>Gómez</strong></h1>
+          <p class="lead">Formación técnica para construir oportunidades, desarrollar competencias y proyectar tu futuro.</p>
+          <div class="resolution">Resolución N.º 2023060355630 · 21 de diciembre de 2023</div>
+          <div class="actions">
+            <button class="btn btn-gold" data-go="3">Conoce nuestras carreras <span>→</span></button>
+            <button class="btn btn-outline" data-go="1">Conócenos</button>
+          </div>
+        </div>
+        <div class="hero-logo reveal delay">
+          <div class="logo-ring"></div>
+          <img src="assets/logo.svg" alt="Logo del Instituto Técnico León Ángel Gómez">
+        </div>
+      </div>
+    </section>
+
+    <section class="slide light" data-name="Nosotros">
+      <div class="slide-inner">
+        <div class="section-heading reveal">
+          <div class="eyebrow dark">02 · INSTITUCIÓN</div>
+          <h2>Una formación pensada para <em>tu futuro.</em></h2>
+          <p>El Instituto Técnico León Ángel Gómez presenta una propuesta de formación técnica orientada al desarrollo de competencias y a la preparación para diferentes escenarios académicos y laborales.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card reveal"><div class="feature-icon">◆</div><h3>Formación técnica</h3><p>Aprendizajes orientados a competencias aplicables a distintos campos laborales.</p></article>
+          <article class="feature-card reveal delay-1"><div class="feature-icon">✦</div><h3>Desarrollo integral</h3><p>Fortalecimiento de conocimientos, habilidades y valores para el proyecto de vida.</p></article>
+          <article class="feature-card reveal delay-2"><div class="feature-icon">↗</div><h3>Proyección laboral</h3><p>Una mirada práctica hacia las necesidades y oportunidades del mundo del trabajo.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide dark" data-name="¿Por qué elegirnos?">
+      <div class="slide-inner">
+        <div class="section-heading centered reveal">
+          <div class="eyebrow">03 · NUESTRA PROPUESTA</div>
+          <h2>¿Por qué <em>elegirnos?</em></h2>
+        </div>
+        <div class="benefit-grid">
+          <article class="benefit reveal"><span>01</span><div class="big-icon">🎓</div><h3>Formación técnica</h3><p>Programas pensados para desarrollar competencias útiles y aplicables.</p></article>
+          <article class="benefit reveal delay-1"><span>02</span><div class="big-icon">★</div><h3>Compromiso</h3><p>Una propuesta educativa con enfoque en responsabilidad y crecimiento.</p></article>
+          <article class="benefit reveal delay-2"><span>03</span><div class="big-icon">⚙</div><h3>Enfoque práctico</h3><p>Aprendizaje conectado con situaciones y contextos del ámbito laboral.</p></article>
+          <article class="benefit reveal delay-3"><span>04</span><div class="big-icon">∞</div><h3>Formación integral</h3><p>Conocimientos y valores para acompañar el desarrollo del estudiante.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide careers" data-name="Carreras">
+      <div class="slide-inner">
+        <div class="section-heading reveal">
+          <div class="eyebrow dark">04 · OFERTA ACADÉMICA</div>
+          <h2>Nuestras <em>carreras</em></h2>
+          <p>Conoce los programas técnicos disponibles.</p>
+        </div>
+        <div class="career-grid">
+          <article class="career-card reveal">
+            <div class="career-top admin"><span>01</span><div>ADMINISTRACIÓN</div><i>▤</i></div>
+            <div class="career-body"><h3>Técnico Laboral en Auxiliar Administrativo y Contable</h3><p>Formación enfocada en procesos administrativos, contables y de apoyo empresarial.</p><button class="text-btn" data-career="admin">Ver programa →</button></div>
+          </article>
+          <article class="career-card reveal delay-1">
+            <div class="career-top vet"><span>02</span><div>VETERINARIA</div><i>♧</i></div>
+            <div class="career-body"><h3>Técnico Laboral en Auxiliar en Clínica Veterinaria</h3><p>Preparación para apoyar actividades relacionadas con la atención y los procedimientos de una clínica veterinaria.</p><button class="text-btn" data-career="vet">Ver programa →</button></div>
+          </article>
+          <article class="career-card reveal delay-2">
+            <div class="career-top safety"><span>03</span><div>SEGURIDAD</div><i>◈</i></div>
+            <div class="career-body"><h3>Técnico Laboral en Seguridad Ocupacional y Laboral</h3><p>Formación enfocada en prevención de riesgos y seguridad dentro de los entornos laborales.</p><button class="text-btn" data-career="safety">Ver programa →</button></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide enroll" data-name="Matrículas">
+      <div class="slide-inner enroll-grid">
+        <div class="enroll-copy reveal">
+          <div class="eyebrow">05 · MATRÍCULAS</div>
+          <h2>Da el siguiente <em>paso.</em></h2>
+          <p>Consulta con el instituto la disponibilidad, requisitos y proceso de matrícula.</p>
+          <div class="schedule">
+            <span>SÁBADOS Y DOMINGOS</span>
+            <strong>9:00 AM — 3:00 PM</strong>
+          </div>
+          <button class="btn btn-gold" data-go="6">Solicitar información →</button>
+        </div>
+        <div class="enroll-image reveal delay"><img src="assets/oferta-academica.svg" alt="Información de matrículas y carreras"></div>
+      </div>
+    </section>
+
+    <section class="slide gallery" data-name="Galería">
+      <div class="slide-inner">
+        <div class="section-heading centered reveal">
+          <div class="eyebrow dark">06 · GALERÍA</div>
+          <h2>Conoce nuestro <em>entorno.</em></h2>
+          <p>Espacio preparado para incorporar fotografías de la institución, estudiantes, docentes y actividades.</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item large reveal"><img src="assets/oferta-academica.svg" alt="Oferta académica"><span>Oferta académica</span></div>
+          <div class="gallery-item placeholder reveal delay-1"><div>+</div><span>Fotografía institucional</span></div>
+          <div class="gallery-item placeholder reveal delay-2"><div>+</div><span>Actividades académicas</span></div>
+          <div class="gallery-item placeholder reveal delay-3"><div>+</div><span>Estudiantes y docentes</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide contact" data-name="Contacto">
+      <div class="slide-inner">
+        <div class="section-heading reveal">
+          <div class="eyebrow">07 · CONTACTO</div>
+          <h2>Estamos listos para <em>orientarte.</em></h2>
+          <p>Completa estos datos con la información oficial del instituto cuando esté disponible.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-card reveal"><span>☎</span><h3>Teléfono</h3><p>Agregar teléfono oficial</p></div>
+          <div class="contact-card reveal delay-1"><span>◉</span><h3>WhatsApp</h3><p>Agregar número oficial</p></div>
+          <div class="contact-card reveal delay-2"><span>✉</span><h3>Correo</h3><p>Agregar correo institucional</p></div>
+          <div class="contact-card reveal delay-3"><span>⌖</span><h3>Dirección</h3><p>Agregar dirección oficial</p></div>
+        </div>
+        <footer><img src="assets/logo.svg" alt="Logo"><div>INSTITUTO TÉCNICO LEÓN ÁNGEL GÓMEZ<br><small>"Excelencia en el ser y amor en el quehacer"</small></div></footer>
+      </div>
+    </section>
+  </main>
+
+  <div class="navigation">
+    <button id="prev" aria-label="Anterior">←</button>
+    <div class="dots" id="dots"></div>
+    <button id="next" aria-label="Siguiente">→</button>
+  </div>
+
+  <div class="modal" id="careerModal">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" aria-label="Cerrar">×</button>
+      <div class="modal-label" id="modalLabel"></div>
+      <h2 id="modalTitle"></h2>
+      <p id="modalText"></p>
+      <div class="modal-note">La información detallada del programa puede incorporarse cuando sea proporcionada oficialmente por la institución.</div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
